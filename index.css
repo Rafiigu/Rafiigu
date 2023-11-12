@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap');
+
+* {
+  margin: 0px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.brand {
+  font-size: 32px;
+  color: #151515;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 4px 0;
+  width: 240px;
+}
+
+.input-group textarea{
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #262626;
+  resize: none;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #262626;
+}
+
+.input-group input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #262626;
+}
+
+.input-error {
+  font-size: 12px;
+  color: red;
+  margin-top: 2px;
+}
+
+.button-primary {
+  background-color: #366bbb;
+  color: #fafafa;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px #dcdcdc;
+}
+
+.button-secondary {
+  background-color: #262626;
+  color: #fafafa;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.button-secondary:hover {
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  cursor: pointer;
+}
